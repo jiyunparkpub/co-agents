@@ -1,0 +1,5877 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ubbxu",
+      "x": 0,
+      "y": -546,
+      "name": "Components",
+      "gap": 40,
+      "children": [
+        {
+          "type": "frame",
+          "id": "UpR7R",
+          "name": "Component/NavBar",
+          "reusable": true,
+          "width": 1440,
+          "height": 56,
+          "fill": "$surface-secondary",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border-subtle"
+          },
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "X3YUu",
+              "name": "Logo",
+              "fill": "$foreground-primary",
+              "content": "GlobeView",
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "500",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "frame",
+              "id": "TdRtq",
+              "name": "NavLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z8lqm",
+                  "name": "Link1",
+                  "fill": "$foreground-primary",
+                  "content": "브리핑",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "sl0Dn",
+                  "name": "Link2",
+                  "fill": "$foreground-muted",
+                  "content": "다관점 비교",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "7P7Fm",
+                  "name": "Link3",
+                  "fill": "$foreground-muted",
+                  "content": "아카이브",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NXybZ",
+          "name": "Component/BiasBadge",
+          "reusable": true,
+          "fill": "$surface-tertiary",
+          "cornerRadius": 12,
+          "gap": 6,
+          "padding": [
+            3,
+            8
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "LBvqS",
+              "name": "BiasDot",
+              "fill": "$bias-center",
+              "width": 8,
+              "height": 8
+            },
+            {
+              "type": "text",
+              "id": "US1mV",
+              "name": "BiasLabel",
+              "fill": "$foreground-secondary",
+              "content": "중도",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1ExF0",
+          "name": "Component/BiasSpectrum",
+          "reusable": true,
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8BxZ7",
+              "name": "g1",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "OhyMl",
+                  "name": "d1",
+                  "fill": "$bias-strong-progressive",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "v3AI0",
+                  "name": "t1",
+                  "fill": "$foreground-muted",
+                  "content": "강진보",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "970kY",
+              "name": "g2",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "0kfKe",
+                  "name": "d2",
+                  "fill": "$bias-progressive",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "HzmfC",
+                  "name": "t2",
+                  "fill": "$foreground-muted",
+                  "content": "진보",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qUWuV",
+              "name": "g3",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "zdoEL",
+                  "name": "d3",
+                  "fill": "$bias-center",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "IxMGq",
+                  "name": "t3",
+                  "fill": "$foreground-muted",
+                  "content": "중도",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BtAdS",
+              "name": "g4",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "5jWOU",
+                  "name": "d4",
+                  "fill": "$bias-conservative",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "oJnyW",
+                  "name": "t4",
+                  "fill": "$foreground-muted",
+                  "content": "보수",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XpchF",
+              "name": "g5",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "xg2p4",
+                  "name": "d5",
+                  "fill": "$bias-strong-conservative",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "rZp1s",
+                  "name": "t5",
+                  "fill": "$foreground-muted",
+                  "content": "강보수",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "0UJRB",
+          "name": "Component/NewsCard — Clario Format",
+          "reusable": true,
+          "width": 680,
+          "fill": "$surface-secondary",
+          "cornerRadius": "$radius-md",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$border-subtle"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Y5Vje",
+              "name": "TopRow",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2LLOD",
+                  "name": "CategoryTag",
+                  "fill": "$accent-primary-soft",
+                  "cornerRadius": 4,
+                  "padding": [
+                    2,
+                    8
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6lFQM",
+                      "name": "CategoryText",
+                      "fill": "$foreground-secondary",
+                      "content": "테크/스타트업",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.3
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y87VN",
+                  "name": "SourceGroup",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "33COm",
+                      "name": "SourceName",
+                      "fill": "$foreground-muted",
+                      "content": "Reuters",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "aQzRt",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "biasBadge",
+                      "x": 48,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fPlo2",
+              "name": "FactLabel",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zsjJg",
+                  "name": "factEn",
+                  "fill": "$accent-primary",
+                  "content": "THE FACT",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "jsEhx",
+                  "name": "factKr",
+                  "fill": "$foreground-muted",
+                  "content": "확인된 사실",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "WFjlu",
+              "name": "Headline",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "EU, AI 규제법 최종안 승인 — 범용 AI 모델에 투명성 의무 부과",
+              "lineHeight": 1.4,
+              "fontFamily": "Newsreader",
+              "fontSize": 20,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "jDyae",
+              "name": "Summary",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "유럽의회가 세계 최초의 포괄적 AI 규제법인 EU AI Act 최종안을 통과시켰다. 범용 AI 모델(GPT, Claude 등)에 대해 학습 데이터 공개, 저작권 준수, 에너지 소비 보고 의무를 부과하며, 고위험 AI 시스템에 대한 적합성 평가 체계를 확립했다.",
+              "lineHeight": 1.65,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "gZhQY",
+              "name": "WhyItMatters",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8R4Pi",
+                  "name": "whyLabel",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Kth96",
+                      "name": "whyEn",
+                      "fill": "$accent-primary",
+                      "content": "WHY IT MATTERS",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "4hHlJ",
+                      "name": "whyKr",
+                      "fill": "$foreground-muted",
+                      "content": "왜 지금 이 뉴스인가",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "y9faY",
+                  "name": "ImpactLine",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "유럽에 AI 서비스를 수출하거나 유럽 파트너사와 일하는 한국 기업이라면, 이 법은 내년부터 여러분의 계약 조건을 바꿉니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L5bLu",
+              "name": "ContextExpandable",
+              "width": "fill_container",
+              "fill": "$surface-tertiary",
+              "cornerRadius": 6,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                14,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8xL4t",
+                  "name": "ctxLabelRow",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ypd7v",
+                      "name": "ctxLabelLeft",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lhQn2",
+                          "name": "ctxEn",
+                          "fill": "$accent-primary",
+                          "content": "CONTEXT",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "text",
+                          "id": "jWYkM",
+                          "name": "ctxKr",
+                          "fill": "$foreground-muted",
+                          "content": "배경 & 맥락",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ujky2",
+                      "name": "ContextCTA",
+                      "fill": "$accent-primary",
+                      "content": "접기 ↑",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ua5De",
+                  "name": "ctxQ1",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "왜 EU가 AI를 규제하려 할까요?",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "wOXf4",
+                  "name": "ctxA1",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "AI가 의료 진단, 대출 심사, 채용처럼 사람의 삶에 직접 영향을 미치는 영역에 빠르게 쓰이기 시작했습니다. EU는 알고리즘 차별과 '누가 책임지는가' 공백을 우려했습니다.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wa1P7",
+                  "name": "ctxQ2",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "이 법이 '세계 최초'인 이유는?",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "1fBrE",
+                  "name": "ctxA2",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "미국은 연방 차원의 통합 AI 규제가 없고, 중국은 특정 분야만 규제합니다. EU AI Act는 AI 시스템 전반을 위험도에 따라 분류해 각각의 의무를 부과하는 최초의 포괄적 법입니다.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "w2RL1",
+              "name": "ForKoreaLabel",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "m28nf",
+                  "name": "koreaEn",
+                  "fill": "$accent-primary",
+                  "content": "FOR KOREA",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "EOE3l",
+                  "name": "koreaKr",
+                  "fill": "$foreground-muted",
+                  "content": "한국에는 어떤 의미인가",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "h2Mw8",
+              "name": "KoreaContext",
+              "width": "fill_container",
+              "fill": "$accent-primary-soft",
+              "cornerRadius": 6,
+              "gap": 10,
+              "padding": [
+                12,
+                16
+              ],
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "1J6lE",
+                  "name": "flag",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "flag",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "SSief",
+                  "name": "ContextText",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "한국 시사점: 2026년 1월 시행된 한국 AI 기본법과 EU AI Act의 규제 범위 차이로 인해, 유럽 시장 진출 한국 기업은 이중 컴플라이언스 부담 가능성.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c6122",
+              "name": "OtherViewsLabel",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lohwi",
+                  "name": "viewsEn",
+                  "fill": "$accent-primary",
+                  "content": "OTHER VIEWS",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "PwV5r",
+                  "name": "viewsKr",
+                  "fill": "$foreground-muted",
+                  "content": "다른 시각들",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gnNLj",
+              "name": "Actions",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border-subtle"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1eiR0",
+                  "name": "leftAct",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BYiaN",
+                      "name": "origLink",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "aVhdv",
+                          "name": "linkIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "external-link",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "URkyu",
+                          "name": "linkText",
+                          "fill": "$accent-primary",
+                          "content": "원문 보기",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZyixX",
+                      "name": "shareBtn",
+                      "fill": "$accent-primary-soft",
+                      "cornerRadius": 6,
+                      "gap": 5,
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "LB9lg",
+                          "name": "shareIcon",
+                          "width": 15,
+                          "height": 15,
+                          "iconFontName": "share-2",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5uPZn",
+                          "name": "shareText",
+                          "fill": "$accent-primary",
+                          "content": "공유",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "xHYjy",
+                  "name": "relatedTag",
+                  "fill": "$foreground-muted",
+                  "content": "AI 요약 · 에디터 검수",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "owh1T",
+      "x": 0,
+      "y": 200,
+      "name": "Screen 1 · Desktop 1440 — Daily Briefing",
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "Q7A0c",
+          "type": "ref",
+          "ref": "UpR7R",
+          "width": "fill_container",
+          "name": "nav1",
+          "descendants": {
+            "X3YUu": {
+              "x": 48,
+              "y": 17
+            },
+            "TdRtq": {
+              "width": "fit_content",
+              "height": "fit_content",
+              "x": 1168,
+              "y": 18
+            },
+            "z8lqm": {
+              "y": 0
+            },
+            "sl0Dn": {
+              "x": 71,
+              "y": 0
+            },
+            "7P7Fm": {
+              "x": 172,
+              "y": 0
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "xaDLL",
+          "name": "BriefingHeader",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            32,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "W6M6F",
+              "name": "date",
+              "fill": "$foreground-muted",
+              "content": "2026년 4월 6일 월요일",
+              "fontFamily": "Geist",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "AY4KK",
+              "name": "title",
+              "fill": "$foreground-primary",
+              "content": "오늘의 글로벌 브리핑",
+              "fontFamily": "Newsreader",
+              "fontSize": 32,
+              "fontWeight": "normal",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "umJjB",
+              "name": "subtitle",
+              "fill": "$foreground-muted",
+              "content": "글로벌 뉴스 3건 + 한국 뉴스 2건 · 예상 읽기 시간 5분",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QKP3T",
+          "name": "BodyColumns",
+          "width": "fill_container",
+          "gap": 32,
+          "padding": [
+            0,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "4GXgW",
+              "name": "MainColumn",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "id": "NcZ1e",
+                  "type": "ref",
+                  "ref": "0UJRB",
+                  "width": "fill_container",
+                  "name": "c1",
+                  "height": "fit_content",
+                  "x": 0,
+                  "descendants": {
+                    "Y5Vje": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 24,
+                      "y": 24
+                    },
+                    "2LLOD": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1
+                    },
+                    "6lFQM": {
+                      "x": 8,
+                      "y": 2
+                    },
+                    "Y87VN": {
+                      "x": 845,
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "33COm": {
+                      "y": 4
+                    },
+                    "aQzRt": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "aQzRt/LBvqS": {
+                      "x": 8,
+                      "y": 7
+                    },
+                    "aQzRt/US1mV": {
+                      "x": 22,
+                      "y": 3
+                    },
+                    "fPlo2": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 62,
+                      "height": "fit_content"
+                    },
+                    "zsjJg": {
+                      "y": 0.5
+                    },
+                    "jsEhx": {
+                      "x": 64
+                    },
+                    "WFjlu": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 92
+                    },
+                    "jDyae": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 140
+                    },
+                    "gZhQY": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 204,
+                      "height": "fit_content"
+                    },
+                    "8R4Pi": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "Kth96": {
+                      "y": 0.5
+                    },
+                    "4hHlJ": {
+                      "x": 107
+                    },
+                    "y9faY": {
+                      "width": "fill_container",
+                      "y": 18
+                    },
+                    "L5bLu": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 259,
+                      "height": "fit_content"
+                    },
+                    "8xL4t": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 14,
+                      "height": "fit_content"
+                    },
+                    "Ypd7v": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1.5
+                    },
+                    "lhQn2": {
+                      "y": 0.5
+                    },
+                    "jWYkM": {
+                      "x": 63
+                    },
+                    "ujky2": {
+                      "x": 876
+                    },
+                    "ua5De": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 41
+                    },
+                    "wOXf4": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 72
+                    },
+                    "wa1P7": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 104
+                    },
+                    "1fBrE": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 135
+                    },
+                    "w2RL1": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 468,
+                      "height": "fit_content"
+                    },
+                    "m28nf": {
+                      "y": 0.5
+                    },
+                    "EOE3l": {
+                      "x": 76,
+                      "y": 0
+                    },
+                    "h2Mw8": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 498,
+                      "x": 24
+                    },
+                    "1J6lE": {
+                      "x": 16,
+                      "y": 12
+                    },
+                    "SSief": {
+                      "width": "fill_container",
+                      "x": 42,
+                      "y": 12
+                    },
+                    "c6122": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 560,
+                      "height": "fit_content"
+                    },
+                    "lohwi": {
+                      "y": 0.5
+                    },
+                    "PwV5r": {
+                      "x": 89
+                    },
+                    "gnNLj": {
+                      "width": "fill_container",
+                      "y": 590,
+                      "height": "fit_content",
+                      "x": 24
+                    },
+                    "1eiR0": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "BYiaN": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 4
+                    },
+                    "aVhdv": {
+                      "y": 1.5
+                    },
+                    "URkyu": {
+                      "x": 18
+                    },
+                    "ZyixX": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 82
+                    },
+                    "LB9lg": {
+                      "x": 10,
+                      "y": 5
+                    },
+                    "5uPZn": {
+                      "x": 30,
+                      "y": 4
+                    },
+                    "xHYjy": {
+                      "x": 854,
+                      "y": 21
+                    }
+                  }
+                },
+                {
+                  "id": "tQswd",
+                  "type": "ref",
+                  "ref": "0UJRB",
+                  "width": "fill_container",
+                  "name": "c2",
+                  "height": "fit_content",
+                  "x": 0,
+                  "y": 675,
+                  "descendants": {
+                    "Y5Vje": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 24,
+                      "y": 24
+                    },
+                    "2LLOD": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1
+                    },
+                    "6lFQM": {
+                      "content": "금융/투자",
+                      "x": 8,
+                      "y": 2
+                    },
+                    "Y87VN": {
+                      "width": "fit_content",
+                      "x": 830,
+                      "height": "fit_content"
+                    },
+                    "33COm": {
+                      "content": "Bloomberg",
+                      "y": 4
+                    },
+                    "aQzRt": {
+                      "x": 63,
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "aQzRt/LBvqS": {
+                      "fill": "$bias-progressive",
+                      "x": 8,
+                      "y": 7
+                    },
+                    "aQzRt/US1mV": {
+                      "content": "진보",
+                      "x": 22,
+                      "y": 3
+                    },
+                    "fPlo2": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 62,
+                      "height": "fit_content"
+                    },
+                    "zsjJg": {
+                      "y": 0.5
+                    },
+                    "jsEhx": {
+                      "x": 64
+                    },
+                    "WFjlu": {
+                      "content": "연준, 기준금리 동결 — 인플레이션 우려 속 시장 관망세 지속",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 92
+                    },
+                    "jDyae": {
+                      "content": "미 연방준비제도이사회가 기준금리를 5.25~5.50%로 동결했다. 파월 의장은 인플레이션이 목표치인 2%에 근접하고 있으나 아직 확신이 부족하다고 밝혔으며, 시장은 올해 하반기 인하 가능성에 무게를 두고 있다.",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 140
+                    },
+                    "gZhQY": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 204,
+                      "height": "fit_content"
+                    },
+                    "8R4Pi": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "Kth96": {
+                      "y": 0.5
+                    },
+                    "4hHlJ": {
+                      "x": 107
+                    },
+                    "y9faY": {
+                      "width": "fill_container",
+                      "y": 18
+                    },
+                    "L5bLu": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 259,
+                      "height": "fit_content"
+                    },
+                    "8xL4t": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 14,
+                      "height": "fit_content"
+                    },
+                    "Ypd7v": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1.5
+                    },
+                    "lhQn2": {
+                      "y": 0.5
+                    },
+                    "jWYkM": {
+                      "x": 63
+                    },
+                    "ujky2": {
+                      "x": 876
+                    },
+                    "ua5De": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 41
+                    },
+                    "wOXf4": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 72
+                    },
+                    "wa1P7": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 104
+                    },
+                    "1fBrE": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 135
+                    },
+                    "w2RL1": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 468,
+                      "height": "fit_content"
+                    },
+                    "m28nf": {
+                      "y": 0.5
+                    },
+                    "EOE3l": {
+                      "x": 76,
+                      "y": 0
+                    },
+                    "h2Mw8": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 498,
+                      "x": 24
+                    },
+                    "1J6lE": {
+                      "x": 16,
+                      "y": 12
+                    },
+                    "SSief": {
+                      "content": "한국 시사점: 금리 동결이 장기화되면 원/달러 환율 변동성 확대 가능. 한은의 독자적 금리 인하 여력이 제한될 수 있어 부동산·가계대출 시장에 직접 영향.",
+                      "width": "fill_container",
+                      "x": 42,
+                      "y": 12
+                    },
+                    "c6122": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 560,
+                      "height": "fit_content"
+                    },
+                    "lohwi": {
+                      "y": 0.5
+                    },
+                    "PwV5r": {
+                      "x": 89
+                    },
+                    "gnNLj": {
+                      "width": "fill_container",
+                      "y": 590,
+                      "height": "fit_content",
+                      "x": 24
+                    },
+                    "1eiR0": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "BYiaN": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 4
+                    },
+                    "aVhdv": {
+                      "y": 1.5
+                    },
+                    "URkyu": {
+                      "x": 18
+                    },
+                    "ZyixX": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 82
+                    },
+                    "LB9lg": {
+                      "x": 10,
+                      "y": 5
+                    },
+                    "5uPZn": {
+                      "x": 30,
+                      "y": 4
+                    },
+                    "xHYjy": {
+                      "content": "관련 다관점 3건",
+                      "x": 874,
+                      "y": 21
+                    }
+                  }
+                },
+                {
+                  "id": "nmltw",
+                  "type": "ref",
+                  "ref": "0UJRB",
+                  "width": "fill_container",
+                  "name": "c3",
+                  "height": "fit_content",
+                  "x": 0,
+                  "y": 1350,
+                  "descendants": {
+                    "Y5Vje": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 24,
+                      "y": 24
+                    },
+                    "2LLOD": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1
+                    },
+                    "6lFQM": {
+                      "content": "국제정치/외교",
+                      "x": 8,
+                      "y": 2
+                    },
+                    "Y87VN": {
+                      "width": "fit_content",
+                      "x": 819,
+                      "height": "fit_content"
+                    },
+                    "33COm": {
+                      "content": "The Guardian",
+                      "y": 4
+                    },
+                    "aQzRt": {
+                      "x": 74,
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "aQzRt/LBvqS": {
+                      "fill": "$bias-progressive",
+                      "x": 8,
+                      "y": 7
+                    },
+                    "aQzRt/US1mV": {
+                      "content": "진보",
+                      "x": 22,
+                      "y": 3
+                    },
+                    "fPlo2": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 62,
+                      "height": "fit_content"
+                    },
+                    "zsjJg": {
+                      "y": 0.5
+                    },
+                    "jsEhx": {
+                      "x": 64
+                    },
+                    "WFjlu": {
+                      "content": "중국, 남중국해 인공섬에 신형 레이더 시설 건설 — 미 국방부 경고",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 92
+                    },
+                    "jDyae": {
+                      "content": "미 국방부 위성사진 분석에 따르면 중국이 남중국해 파라셀 군도 인공섬에 대규모 레이더 시설을 신규 건설 중이다. 필리핀과 베트남이 즉각 항의했으며, 미국은 항행의 자유 작전 강화를 시사했다.",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 140
+                    },
+                    "gZhQY": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 204,
+                      "height": "fit_content"
+                    },
+                    "8R4Pi": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "Kth96": {
+                      "y": 0.5
+                    },
+                    "4hHlJ": {
+                      "x": 107
+                    },
+                    "y9faY": {
+                      "width": "fill_container",
+                      "y": 18
+                    },
+                    "L5bLu": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 259,
+                      "height": "fit_content"
+                    },
+                    "8xL4t": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 14,
+                      "height": "fit_content"
+                    },
+                    "Ypd7v": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1.5
+                    },
+                    "lhQn2": {
+                      "y": 0.5
+                    },
+                    "jWYkM": {
+                      "x": 63
+                    },
+                    "ujky2": {
+                      "x": 876
+                    },
+                    "ua5De": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 41
+                    },
+                    "wOXf4": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 72
+                    },
+                    "wa1P7": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 104
+                    },
+                    "1fBrE": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 135
+                    },
+                    "w2RL1": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 468,
+                      "height": "fit_content"
+                    },
+                    "m28nf": {
+                      "y": 0.5
+                    },
+                    "EOE3l": {
+                      "x": 76,
+                      "y": 0
+                    },
+                    "h2Mw8": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 498,
+                      "x": 24
+                    },
+                    "1J6lE": {
+                      "x": 16,
+                      "y": 12
+                    },
+                    "SSief": {
+                      "content": "한국 시사점: 남중국해 긴장 고조는 한국 수출입 물류의 핵심 항로에 영향. 전체 해상 물동량의 30%가 이 해역을 통과하며, 보험료 인상과 배송 지연 가능성.",
+                      "width": "fill_container",
+                      "x": 42,
+                      "y": 12
+                    },
+                    "c6122": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 560,
+                      "height": "fit_content"
+                    },
+                    "lohwi": {
+                      "y": 0.5
+                    },
+                    "PwV5r": {
+                      "x": 89
+                    },
+                    "gnNLj": {
+                      "width": "fill_container",
+                      "y": 590,
+                      "height": "fit_content",
+                      "x": 24
+                    },
+                    "1eiR0": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "BYiaN": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 4
+                    },
+                    "aVhdv": {
+                      "y": 1.5
+                    },
+                    "URkyu": {
+                      "x": 18
+                    },
+                    "ZyixX": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 82
+                    },
+                    "LB9lg": {
+                      "x": 10,
+                      "y": 5
+                    },
+                    "5uPZn": {
+                      "x": 30,
+                      "y": 4
+                    },
+                    "xHYjy": {
+                      "content": "관련 다관점 4건",
+                      "x": 874,
+                      "y": 21
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "zVlyO",
+                  "name": "secLabel",
+                  "fill": "$foreground-muted",
+                  "content": "한국 뉴스",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "id": "HwakP",
+                  "type": "ref",
+                  "ref": "0UJRB",
+                  "width": "fill_container",
+                  "name": "c4",
+                  "height": "fit_content",
+                  "x": 0,
+                  "y": 2062,
+                  "descendants": {
+                    "Y5Vje": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 24,
+                      "y": 24
+                    },
+                    "2LLOD": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1
+                    },
+                    "6lFQM": {
+                      "content": "산업/제조",
+                      "x": 8,
+                      "y": 2
+                    },
+                    "Y87VN": {
+                      "width": "fit_content",
+                      "x": 844,
+                      "height": "fit_content"
+                    },
+                    "33COm": {
+                      "content": "한국경제",
+                      "y": 3
+                    },
+                    "aQzRt": {
+                      "x": 49,
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "aQzRt/LBvqS": {
+                      "fill": "$bias-conservative",
+                      "x": 8,
+                      "y": 7
+                    },
+                    "aQzRt/US1mV": {
+                      "content": "보수",
+                      "x": 22,
+                      "y": 3
+                    },
+                    "fPlo2": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 62,
+                      "height": "fit_content"
+                    },
+                    "zsjJg": {
+                      "y": 0.5
+                    },
+                    "jsEhx": {
+                      "x": 64
+                    },
+                    "WFjlu": {
+                      "content": "삼성전자, 2나노 GAA 공정 양산 일정 발표 — TSMC와 파운드리 격차 줄이기 시동",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 92
+                    },
+                    "jDyae": {
+                      "content": "삼성전자가 2나노 GAA(Gate-All-Around) 공정의 양산 시점을 2026년 하반기로 확정 발표했다. 퀄컴과 엔비디아의 물량 확보 경쟁이 본격화되며, TSMC의 2나노 공정 양산(2025년)에 이어 기술 격차 축소가 기대된다.",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 140
+                    },
+                    "gZhQY": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 204,
+                      "height": "fit_content"
+                    },
+                    "8R4Pi": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "Kth96": {
+                      "y": 0.5
+                    },
+                    "4hHlJ": {
+                      "x": 107
+                    },
+                    "y9faY": {
+                      "width": "fill_container",
+                      "y": 18
+                    },
+                    "L5bLu": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 259,
+                      "height": "fit_content"
+                    },
+                    "8xL4t": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 14,
+                      "height": "fit_content"
+                    },
+                    "Ypd7v": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1.5
+                    },
+                    "lhQn2": {
+                      "y": 0.5
+                    },
+                    "jWYkM": {
+                      "x": 63
+                    },
+                    "ujky2": {
+                      "x": 876
+                    },
+                    "ua5De": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 41
+                    },
+                    "wOXf4": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 72
+                    },
+                    "wa1P7": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 104
+                    },
+                    "1fBrE": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 135
+                    },
+                    "w2RL1": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 468,
+                      "height": "fit_content"
+                    },
+                    "m28nf": {
+                      "y": 0.5
+                    },
+                    "EOE3l": {
+                      "x": 76,
+                      "y": 0
+                    },
+                    "h2Mw8": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 498,
+                      "x": 24
+                    },
+                    "1J6lE": {
+                      "x": 16,
+                      "y": 12
+                    },
+                    "SSief": {
+                      "content": "한국 시사점: 반도체 파운드리 시장 점유율 확대는 한국 경제 성장률과 직결. 삼성 평택 캠퍼스 투자 20조원이 지역 고용과 부품 생태계에 미치는 파급 효과 주목.",
+                      "width": "fill_container",
+                      "x": 42,
+                      "y": 12
+                    },
+                    "c6122": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 560,
+                      "height": "fit_content"
+                    },
+                    "lohwi": {
+                      "y": 0.5
+                    },
+                    "PwV5r": {
+                      "x": 89
+                    },
+                    "gnNLj": {
+                      "width": "fill_container",
+                      "y": 590,
+                      "height": "fit_content",
+                      "x": 24
+                    },
+                    "1eiR0": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "BYiaN": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 4
+                    },
+                    "aVhdv": {
+                      "y": 1.5
+                    },
+                    "URkyu": {
+                      "x": 18
+                    },
+                    "ZyixX": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 82
+                    },
+                    "LB9lg": {
+                      "x": 10,
+                      "y": 5
+                    },
+                    "5uPZn": {
+                      "x": 30,
+                      "y": 4
+                    },
+                    "xHYjy": {
+                      "content": "관련 다관점 2건",
+                      "x": 874,
+                      "y": 21
+                    }
+                  }
+                },
+                {
+                  "id": "mPARj",
+                  "type": "ref",
+                  "ref": "0UJRB",
+                  "width": "fill_container",
+                  "name": "c5",
+                  "height": "fit_content",
+                  "x": 0,
+                  "y": 2737,
+                  "descendants": {
+                    "Y5Vje": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 24,
+                      "y": 24
+                    },
+                    "2LLOD": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1
+                    },
+                    "6lFQM": {
+                      "content": "에너지/기후",
+                      "x": 8,
+                      "y": 2
+                    },
+                    "Y87VN": {
+                      "width": "fit_content",
+                      "x": 854,
+                      "height": "fit_content"
+                    },
+                    "33COm": {
+                      "content": "한겨레",
+                      "y": 3
+                    },
+                    "aQzRt": {
+                      "x": 39,
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "aQzRt/LBvqS": {
+                      "fill": "$bias-progressive",
+                      "x": 8,
+                      "y": 7
+                    },
+                    "aQzRt/US1mV": {
+                      "content": "진보",
+                      "x": 22,
+                      "y": 3
+                    },
+                    "fPlo2": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 62,
+                      "height": "fit_content"
+                    },
+                    "zsjJg": {
+                      "y": 0.5
+                    },
+                    "jsEhx": {
+                      "x": 64
+                    },
+                    "WFjlu": {
+                      "content": "정부, 2030 NDC 상향안 확정 — 산업계 '이행 가능성' 우려",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 92
+                    },
+                    "jDyae": {
+                      "content": "환경부가 2030년 국가 온실가스 감축 목표(NDC)를 기존 40%에서 45%로 상향하는 수정안을 확정했다. 재생에너지 비중을 30%까지 끌어올리는 것이 핵심이나, 산업계는 전력 비용 상승과 국제 경쟁력 약화를 우려하고 있다.",
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 140
+                    },
+                    "gZhQY": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 204,
+                      "height": "fit_content"
+                    },
+                    "8R4Pi": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "Kth96": {
+                      "y": 0.5
+                    },
+                    "4hHlJ": {
+                      "x": 107
+                    },
+                    "y9faY": {
+                      "width": "fill_container",
+                      "y": 18
+                    },
+                    "L5bLu": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 259,
+                      "height": "fit_content"
+                    },
+                    "8xL4t": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 14,
+                      "height": "fit_content"
+                    },
+                    "Ypd7v": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 1.5
+                    },
+                    "lhQn2": {
+                      "y": 0.5
+                    },
+                    "jWYkM": {
+                      "x": 63
+                    },
+                    "ujky2": {
+                      "x": 876
+                    },
+                    "ua5De": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 41
+                    },
+                    "wOXf4": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 72
+                    },
+                    "wa1P7": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 104
+                    },
+                    "1fBrE": {
+                      "width": "fill_container",
+                      "x": 16,
+                      "y": 135
+                    },
+                    "w2RL1": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 468,
+                      "height": "fit_content"
+                    },
+                    "m28nf": {
+                      "y": 0.5
+                    },
+                    "EOE3l": {
+                      "x": 76,
+                      "y": 0
+                    },
+                    "h2Mw8": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 498,
+                      "x": 24
+                    },
+                    "1J6lE": {
+                      "x": 16,
+                      "y": 12
+                    },
+                    "SSief": {
+                      "content": "한국 시사점: 탄소국경조정제도(CBAM) 대응과 맞물려 수출 기업의 ESG 전환 비용 증가 불가피. 에너지 전환 속도가 제조업 경쟁력에 미치는 영향 모니터링 필요.",
+                      "width": "fill_container",
+                      "x": 42,
+                      "y": 12
+                    },
+                    "c6122": {
+                      "width": "fill_container",
+                      "x": 24,
+                      "y": 560,
+                      "height": "fit_content"
+                    },
+                    "lohwi": {
+                      "y": 0.5
+                    },
+                    "PwV5r": {
+                      "x": 89
+                    },
+                    "gnNLj": {
+                      "width": "fill_container",
+                      "y": 590,
+                      "height": "fit_content",
+                      "x": 24
+                    },
+                    "1eiR0": {
+                      "width": "fit_content",
+                      "height": "fit_content"
+                    },
+                    "BYiaN": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "y": 4
+                    },
+                    "aVhdv": {
+                      "y": 1.5
+                    },
+                    "URkyu": {
+                      "x": 18
+                    },
+                    "ZyixX": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 82
+                    },
+                    "LB9lg": {
+                      "x": 10,
+                      "y": 5
+                    },
+                    "5uPZn": {
+                      "x": 30,
+                      "y": 4
+                    },
+                    "xHYjy": {
+                      "content": "관련 다관점 5건",
+                      "x": 874,
+                      "y": 21
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zwlpL",
+              "name": "Sidebar",
+              "width": 320,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CyRqA",
+                  "name": "SpectrumBox",
+                  "width": "fill_container",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": "$radius-md",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nfr3P",
+                      "name": "specTitle",
+                      "fill": "$foreground-primary",
+                      "content": "편향 스펙트럼 가이드",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "kZsLV",
+                      "type": "ref",
+                      "ref": "1ExF0",
+                      "name": "specInst",
+                      "x": 20,
+                      "y": 51,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "8BxZ7": {
+                          "width": "fit_content",
+                          "height": "fit_content"
+                        },
+                        "OhyMl": {
+                          "y": 3
+                        },
+                        "v3AI0": {
+                          "x": 12
+                        },
+                        "970kY": {
+                          "width": "fit_content",
+                          "height": "fit_content",
+                          "x": 53
+                        },
+                        "0kfKe": {
+                          "y": 3
+                        },
+                        "HzmfC": {
+                          "x": 12
+                        },
+                        "qUWuV": {
+                          "width": "fit_content",
+                          "height": "fit_content",
+                          "x": 96
+                        },
+                        "zdoEL": {
+                          "y": 3
+                        },
+                        "IxMGq": {
+                          "x": 12
+                        },
+                        "BtAdS": {
+                          "width": "fit_content",
+                          "height": "fit_content",
+                          "x": 139
+                        },
+                        "5jWOU": {
+                          "y": 3
+                        },
+                        "oJnyW": {
+                          "x": 12
+                        },
+                        "XpchF": {
+                          "width": "fit_content",
+                          "height": "fit_content",
+                          "x": 182
+                        },
+                        "xg2p4": {
+                          "y": 3
+                        },
+                        "rZp1s": {
+                          "x": 12
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "QrP2d",
+                      "name": "specDesc",
+                      "fill": "$foreground-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GlobeView는 한국언론진흥재단 조사 및 미디어오늘 분석을 기반으로 매체별 편향을 분류합니다.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tgrqs",
+                  "name": "TrendingBox",
+                  "width": "fill_container",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": "$radius-md",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DNIUE",
+                      "name": "trendTitle",
+                      "fill": "$foreground-primary",
+                      "content": "오늘의 다관점 이슈",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cw7v5",
+                      "name": "ti1",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eGhDP",
+                          "name": "ti1n",
+                          "fill": "$accent-primary",
+                          "content": "1",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IvBmh",
+                          "name": "ti1t",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "EU AI 규제 — 기업 영향과 전망",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v0cV1",
+                      "name": "ti2",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XdZoF",
+                          "name": "ti2n",
+                          "fill": "$accent-primary",
+                          "content": "2",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OsO46",
+                          "name": "ti2t",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "한은 금리 동결 — 부동산 시장 전망",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GOmjo",
+                      "name": "ti3",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YDrSI",
+                          "name": "ti3n",
+                          "fill": "$accent-primary",
+                          "content": "3",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FnMuM",
+                          "name": "ti3t",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "남중국해 긴장 — 무역 물류 리스크",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cwSQz",
+                  "name": "SubscribeCTA",
+                  "width": "fill_container",
+                  "fill": "$surface-inverse",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1NbDQ",
+                      "name": "ctaTitle",
+                      "fill": "$foreground-inverse",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "매일 아침, 글로벌 브리핑",
+                      "lineHeight": 1.4,
+                      "textAlign": "center",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pInpe",
+                      "name": "ctaDesc",
+                      "fill": "#ABABAB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "글로벌 뉴스를 한국어로, 모든 관점을 한눈에. 무료 뉴스레터를 구독하세요.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8GWed",
+                      "name": "ctaBtn",
+                      "width": "fill_container",
+                      "fill": "$accent-primary",
+                      "cornerRadius": 6,
+                      "padding": [
+                        12,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RihOe",
+                          "name": "ctaBtnText",
+                          "fill": "$surface-inverse",
+                          "content": "무료 구독하기",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "6NPWZ",
+      "x": 1540,
+      "y": 200,
+      "name": "Screen 2 · Desktop 1440 — Perspective View",
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "6bEc0",
+          "type": "ref",
+          "ref": "UpR7R",
+          "width": "fill_container",
+          "name": "nav2",
+          "descendants": {
+            "X3YUu": {
+              "x": 48,
+              "y": 17
+            },
+            "TdRtq": {
+              "width": "fit_content",
+              "height": "fit_content",
+              "x": 1168,
+              "y": 18
+            },
+            "z8lqm": {
+              "fontWeight": "400",
+              "fill": "$foreground-muted",
+              "y": 0
+            },
+            "sl0Dn": {
+              "fontWeight": "500",
+              "fill": "$foreground-primary",
+              "x": 71,
+              "y": 0
+            },
+            "7P7Fm": {
+              "x": 172,
+              "y": 0
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "aMKdf",
+          "name": "PerspectiveHeader",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            32,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ipwcz",
+              "name": "P2ClusterStrip",
+              "fill": "$surface-secondary",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "gap": 14,
+              "padding": [
+                10,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bkfrP",
+                  "name": "p2StripTotal",
+                  "fill": "$foreground-primary",
+                  "content": "5개 매체 보도",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "dLscl",
+                  "name": "p2StripDiv",
+                  "fill": "$border-default",
+                  "width": 1,
+                  "height": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "cHp9L",
+                  "name": "p2ProgWrap",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "ZXIjX",
+                      "name": "p2ProgDot",
+                      "fill": "$bias-progressive",
+                      "width": 9,
+                      "height": 9
+                    },
+                    {
+                      "type": "text",
+                      "id": "B4mJI",
+                      "name": "p2ProgText",
+                      "fill": "$foreground-secondary",
+                      "content": "진보 2",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JtWwW",
+                  "name": "p2CentWrap",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "OMfua",
+                      "name": "p2CentDot",
+                      "fill": "$bias-center",
+                      "width": 9,
+                      "height": 9
+                    },
+                    {
+                      "type": "text",
+                      "id": "QQJgl",
+                      "name": "p2CentText",
+                      "fill": "$foreground-secondary",
+                      "content": "중도 2",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UpFHD",
+                  "name": "p2ConsWrap",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "najyT",
+                      "name": "p2ConsDot",
+                      "fill": "$bias-conservative",
+                      "width": 9,
+                      "height": 9
+                    },
+                    {
+                      "type": "text",
+                      "id": "SP1D6",
+                      "name": "p2ConsText",
+                      "fill": "$foreground-secondary",
+                      "content": "보수 1",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "bfw6u",
+                  "name": "p2StripDiv2",
+                  "fill": "$border-default",
+                  "width": 1,
+                  "height": 14
+                },
+                {
+                  "type": "text",
+                  "id": "jlkRK",
+                  "name": "p2StripMeta",
+                  "fill": "$accent-primary",
+                  "content": "편향 분산도 82%",
+                  "fontFamily": "Geist",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kUrld",
+              "name": "pCat",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SVsyu",
+                  "name": "pCatTag",
+                  "fill": "$accent-primary-soft",
+                  "cornerRadius": 4,
+                  "padding": [
+                    2,
+                    8
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8ImU8",
+                      "name": "pCatText",
+                      "fill": "$foreground-secondary",
+                      "content": "국제정치/외교",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "W0bsL",
+                  "name": "pDate",
+                  "fill": "$foreground-muted",
+                  "content": "2026년 4월 6일",
+                  "fontFamily": "Geist",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Irh35",
+              "name": "pTitle",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "EU AI 규제법 최종안 승인 — 글로벌 AI 기업에 미치는 영향",
+              "lineHeight": 1.35,
+              "fontFamily": "Newsreader",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "OZnnH",
+              "name": "pSub",
+              "fill": "$foreground-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "매체별 편향 분포와 관점 차이를 한눈에 확인하세요.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "adzn1",
+              "type": "ref",
+              "ref": "1ExF0",
+              "name": "specRow",
+              "x": 48,
+              "y": 205,
+              "width": "fit_content",
+              "height": "fit_content",
+              "descendants": {
+                "8BxZ7": {
+                  "width": "fit_content",
+                  "height": "fit_content"
+                },
+                "OhyMl": {
+                  "y": 3
+                },
+                "v3AI0": {
+                  "x": 12
+                },
+                "970kY": {
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "x": 53
+                },
+                "0kfKe": {
+                  "y": 3
+                },
+                "HzmfC": {
+                  "x": 12
+                },
+                "qUWuV": {
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "x": 96
+                },
+                "zdoEL": {
+                  "y": 3
+                },
+                "IxMGq": {
+                  "x": 12
+                },
+                "BtAdS": {
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "x": 139
+                },
+                "5jWOU": {
+                  "y": 3
+                },
+                "oJnyW": {
+                  "x": 12
+                },
+                "XpchF": {
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "x": 182
+                },
+                "xg2p4": {
+                  "y": 3
+                },
+                "rZp1s": {
+                  "x": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9bHWl",
+          "name": "SourceColumns",
+          "width": "fill_container",
+          "gap": 20,
+          "padding": [
+            0,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "F9mHZ",
+              "name": "Source1",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3uwIi",
+                  "name": "s1hdr",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cMqrV",
+                      "name": "s1name",
+                      "fill": "$foreground-primary",
+                      "content": "Reuters",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "RriHO",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "s1badge",
+                      "x": 343.6666666666667,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "9etp0",
+                  "name": "s1sum",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU AI Act가 범용 AI에 투명성 의무를 부과하는 데 초점을 맞추며, 규제 프레임워크의 기술적 세부사항과 이행 일정을 사실 중심으로 보도. 기업 영향보다 제도적 진전에 무게를 둠.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "csZ2u",
+                  "name": "s1link",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "YB1PC",
+                      "name": "s1icon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "external-link",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "agM1x",
+                      "name": "s1lt",
+                      "fill": "$accent-primary",
+                      "content": "원문 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ldC7s",
+              "name": "Source2",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MQJJ4",
+                  "name": "s2hdr",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h0hTo",
+                      "name": "s2name",
+                      "fill": "$foreground-primary",
+                      "content": "한겨레",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "kixVr",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "s2badge",
+                      "x": 343.6666666666667,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "fill": "$bias-progressive",
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "content": "진보",
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "O48sv",
+                  "name": "s2sum",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU의 AI 규제를 인권과 노동권 보호 관점에서 평가. 빅테크 기업의 '자율 규제' 한계를 지적하며, 한국도 EU 수준의 강력한 규제가 필요하다는 논조. 시민사회 의견을 적극 인용.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "K81ak",
+                  "name": "s2link",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "pSlLA",
+                      "name": "s2icon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "external-link",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YAZnG",
+                      "name": "s2lt",
+                      "fill": "$accent-primary",
+                      "content": "원문 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vbnY1",
+              "name": "Source3",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4H4m3",
+                  "name": "s3hdr",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DTUxn",
+                      "name": "s3name",
+                      "fill": "$foreground-primary",
+                      "content": "조선일보",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "Hh3Il",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "s3badge",
+                      "x": 343.6666666666667,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "fill": "$bias-conservative",
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "content": "보수",
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Qstjg",
+                  "name": "s3sum",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU AI 규제가 유럽 기업 경쟁력을 약화시킬 수 있다는 산업계 우려를 부각. 미국·중국 대비 규제 속도 차이가 혁신 저해로 이어질 수 있다는 관점. 한국 기업의 글로벌 경쟁 기회를 강조.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "vM7rs",
+                  "name": "s3link",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hYjvb",
+                      "name": "s3icon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "external-link",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DibOe",
+                      "name": "s3lt",
+                      "fill": "$accent-primary",
+                      "content": "원문 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zOAKU",
+          "name": "BlindspotBanner",
+          "width": "fill_container",
+          "fill": "$warning-bg",
+          "gap": 10,
+          "padding": [
+            14,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "jNX48",
+              "name": "bIcon",
+              "width": 18,
+              "height": 18,
+              "iconFontName": "triangle-alert",
+              "iconFontFamily": "lucide",
+              "fill": "$warning-icon"
+            },
+            {
+              "type": "text",
+              "id": "OiCMa",
+              "name": "bText",
+              "fill": "$warning-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "이 이슈는 보수 성향 매체 보도 비중이 낮습니다 (진보 2 · 중도 2 · 보수 1). 다양한 관점을 확인하세요.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YqH6F",
+          "name": "AdditionalSources",
+          "width": "fill_container",
+          "gap": 20,
+          "padding": [
+            0,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "4dNV3",
+              "name": "Source4",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YBEXr",
+                  "name": "s4hdr",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3UphL",
+                      "name": "s4name",
+                      "fill": "$foreground-primary",
+                      "content": "BBC",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "m1hH2",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "s4badge",
+                      "x": 571,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "fill": "$bias-center",
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "content": "중도",
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "WLBdy",
+                  "name": "s4sum",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU AI Act를 글로벌 AI 거버넌스의 선례로 평가하면서, 미국·영국의 자율규제 접근과 비교 분석. 소비자 보호와 혁신 균형이라는 프레임으로 보도.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "YhCWA",
+                  "name": "s4link",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "9n3UG",
+                      "name": "s4icon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "external-link",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CQpzT",
+                      "name": "s4lt",
+                      "fill": "$accent-primary",
+                      "content": "원문 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I43B7",
+              "name": "Source5",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MVfxW",
+                  "name": "s5hdr",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6CUsb",
+                      "name": "s5name",
+                      "fill": "$foreground-primary",
+                      "content": "매일경제",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "2kzFT",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "s5badge",
+                      "x": 571,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "fill": "$bias-conservative",
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "content": "보수",
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "nLNaL",
+                  "name": "s5sum",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU 규제가 한국 AI 스타트업의 유럽 진출에 미치는 실질적 비용과 인증 절차를 상세 분석. 기업 실무진 인터뷰를 통해 컴플라이언스 대응 전략을 제시.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Aj9rE",
+                  "name": "s5link",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "aNffy",
+                      "name": "s5icon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "external-link",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "drgaS",
+                      "name": "s5lt",
+                      "fill": "$accent-primary",
+                      "content": "원문 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iFBYU",
+          "name": "footer2",
+          "width": "fill_container",
+          "height": 32
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZRu5I",
+      "x": 720,
+      "y": 3900,
+      "name": "State Variants (Loading / Empty / Error)",
+      "gap": 40,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Lb1CS",
+          "name": "State · Loading",
+          "width": 420,
+          "fill": "$surface-secondary",
+          "cornerRadius": "$radius-md",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$border-subtle"
+          },
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 32,
+          "children": [
+            {
+              "type": "text",
+              "id": "krbpc",
+              "name": "loadTitle",
+              "fill": "$foreground-primary",
+              "content": "브리핑을 생성하고 있습니다",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "03kti",
+              "name": "loadDesc",
+              "fill": "$foreground-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AI가 글로벌 뉴스를 분석 중입니다. 완료된 항목부터 순차적으로 표시됩니다.",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "rEbHs",
+              "name": "progBar",
+              "width": "fill_container",
+              "height": 6,
+              "fill": "$surface-tertiary",
+              "cornerRadius": 3,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 3,
+                  "id": "tMkvM",
+                  "x": 0,
+                  "y": 0,
+                  "name": "progFill",
+                  "fill": "$accent-primary",
+                  "width": 180,
+                  "height": 6
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HiJxo",
+              "name": "loadSteps",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QZuXH",
+                  "name": "ls1",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "EQJzK",
+                      "name": "ls1i",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "circle-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22C55E"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Km4TB",
+                      "name": "ls1t",
+                      "fill": "$foreground-secondary",
+                      "content": "글로벌 뉴스 소스 수집 완료",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b4uEM",
+                  "name": "ls2",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "kpylQ",
+                      "name": "ls2i",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "circle-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22C55E"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2uUtg",
+                      "name": "ls2t",
+                      "fill": "$foreground-secondary",
+                      "content": "한국 뉴스 소스 수집 완료",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v5WuE",
+                  "name": "ls3",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "D6Ofd",
+                      "name": "ls3i",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "loader",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K3x3d",
+                      "name": "ls3t",
+                      "fill": "$foreground-primary",
+                      "content": "AI 요약 생성 중... (3/5건)",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NSRA4",
+          "name": "State · Empty",
+          "width": 420,
+          "fill": "$surface-secondary",
+          "cornerRadius": "$radius-md",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$border-subtle"
+          },
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "wcFvL",
+              "name": "emptyIcon",
+              "width": 48,
+              "height": 48,
+              "iconFontName": "inbox",
+              "iconFontFamily": "lucide",
+              "fill": "$border-default"
+            },
+            {
+              "type": "text",
+              "id": "YADzW",
+              "name": "emptyTitle",
+              "fill": "$foreground-primary",
+              "content": "아직 브리핑이 없습니다",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "qqKt6",
+              "name": "emptyDesc",
+              "fill": "$foreground-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "오늘의 브리핑이 아직 발행되지 않았습니다.\n매일 오전 8시(KST)에 새로운 브리핑이 도착합니다.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "68RKw",
+              "name": "emptyBtn",
+              "fill": "$accent-primary-soft",
+              "cornerRadius": 6,
+              "padding": [
+                10,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MeXpq",
+                  "name": "emptyBtnText",
+                  "fill": "$accent-primary",
+                  "content": "샘플 브리핑 체험하기",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xzs14",
+          "name": "State · Error",
+          "width": 420,
+          "fill": "$surface-secondary",
+          "cornerRadius": "$radius-md",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$border-subtle"
+          },
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "0DpWX",
+              "name": "errBanner",
+              "width": "fill_container",
+              "fill": "$warning-bg",
+              "cornerRadius": 6,
+              "gap": 8,
+              "padding": [
+                10,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "D4oDy",
+                  "name": "errIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "triangle-alert",
+                  "iconFontFamily": "lucide",
+                  "fill": "$warning-icon"
+                },
+                {
+                  "type": "text",
+                  "id": "Hckgl",
+                  "name": "errBannerText",
+                  "fill": "$warning-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "일부 소스에서 데이터를 가져오지 못했습니다",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "dL4hU",
+              "name": "errDesc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "2개 소스(Reuters, BBC)에서 수집 오류가 발생했습니다.\n정상 수집된 3건의 브리핑을 먼저 확인할 수 있습니다.",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "vBIPX",
+              "name": "errActions",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "euZWq",
+                  "name": "errRetry",
+                  "fill": "$accent-primary",
+                  "cornerRadius": 6,
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "swu6k",
+                      "name": "errRetryIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "refresh-cw",
+                      "iconFontFamily": "lucide",
+                      "fill": "$foreground-inverse"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IHgg6",
+                      "name": "errRetryText",
+                      "fill": "$foreground-inverse",
+                      "content": "재시도",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YbbzO",
+                  "name": "errView",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-default"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pnHOi",
+                      "name": "errViewText",
+                      "fill": "$foreground-primary",
+                      "content": "완료분 먼저 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9HGGU",
+      "x": 3080,
+      "y": 200,
+      "name": "Screen 2 · Mobile 390 — Perspective View",
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "4iQCr",
+          "type": "ref",
+          "ref": "UpR7R",
+          "width": "fill_container",
+          "name": "mnav",
+          "descendants": {
+            "X3YUu": {
+              "fontSize": 18,
+              "y": 19,
+              "x": 48
+            },
+            "TdRtq": {
+              "gap": 16,
+              "width": "fit_content",
+              "x": 150,
+              "height": "fit_content",
+              "y": 18
+            },
+            "z8lqm": {
+              "fontWeight": "400",
+              "fill": "$foreground-muted",
+              "y": 0
+            },
+            "sl0Dn": {
+              "fontWeight": "500",
+              "fill": "$foreground-primary",
+              "x": 55,
+              "y": 0
+            },
+            "7P7Fm": {
+              "x": 140,
+              "y": 0
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "lvy55",
+          "name": "mhdr",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            24,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "EyCp9",
+              "name": "mcat",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OmH2L",
+                  "name": "mcatTag",
+                  "fill": "$accent-primary-soft",
+                  "cornerRadius": 4,
+                  "padding": [
+                    2,
+                    6
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NEiHi",
+                      "name": "mcatText",
+                      "fill": "$foreground-secondary",
+                      "content": "국제정치/외교",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "XlYiM",
+                  "name": "mdate",
+                  "fill": "$foreground-muted",
+                  "content": "2026.04.06",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "dPvzh",
+              "name": "mtitle",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "EU AI 규제법 최종안 승인 — 글로벌 AI 기업에 미치는 영향",
+              "lineHeight": 1.35,
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "500",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "gN82M",
+              "name": "msub",
+              "fill": "$foreground-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "5개 매체의 보도를 비교합니다",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h1I3b",
+          "name": "MobileSourceStack",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QtCoQ",
+              "name": "mc1",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bsqkC",
+                  "name": "mc1h",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SDuYR",
+                      "name": "mc1n",
+                      "fill": "$foreground-primary",
+                      "content": "Reuters",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "d5l42",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "mc1b",
+                      "x": 275,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tigrS",
+                  "name": "mc1s",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU AI Act가 범용 AI에 투명성 의무를 부과하는 데 초점. 규제 프레임워크의 기술적 세부사항과 이행 일정을 사실 중심으로 보도.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "T6X12",
+                  "name": "mc1l",
+                  "fill": "$accent-primary",
+                  "content": "원문 보기 →",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Gcyix",
+              "name": "mc2",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CRZbT",
+                  "name": "mc2h",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HkXbi",
+                      "name": "mc2n",
+                      "fill": "$foreground-primary",
+                      "content": "한겨레",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "mvHe9",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "mc2b",
+                      "x": 275,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "fill": "$bias-progressive",
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "content": "진보",
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "53Kuy",
+                  "name": "mc2s",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU의 AI 규제를 인권과 노동권 보호 관점에서 평가. 빅테크 기업의 자율 규제 한계를 지적하며 강력한 규제 필요성 주장.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rk5H5",
+                  "name": "mc2l",
+                  "fill": "$accent-primary",
+                  "content": "원문 보기 →",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1GckQ",
+              "name": "mc3",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "o2UYk",
+                  "name": "mc3h",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lwxu4",
+                      "name": "mc3n",
+                      "fill": "$foreground-primary",
+                      "content": "조선일보",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "Nd992",
+                      "type": "ref",
+                      "ref": "NXybZ",
+                      "name": "mc3b",
+                      "x": 275,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "LBvqS": {
+                          "fill": "$bias-conservative",
+                          "x": 8,
+                          "y": 7
+                        },
+                        "US1mV": {
+                          "content": "보수",
+                          "x": 22,
+                          "y": 3
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "uFaAn",
+                  "name": "mc3s",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU AI 규제가 유럽 기업 경쟁력을 약화시킬 수 있다는 산업계 우려를 부각. 한국 기업의 글로벌 경쟁 기회를 강조.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "8RRDO",
+                  "name": "mc3l",
+                  "fill": "$accent-primary",
+                  "content": "원문 보기 →",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e0bQm",
+          "name": "MobileBlindspot",
+          "width": "fill_container",
+          "fill": "$warning-bg",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "jJ4IT",
+              "name": "mbIcon",
+              "width": 16,
+              "height": 16,
+              "iconFontName": "triangle-alert",
+              "iconFontFamily": "lucide",
+              "fill": "$warning-icon"
+            },
+            {
+              "type": "text",
+              "id": "VFOu6",
+              "name": "mbText",
+              "fill": "$warning-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "이 이슈를 보수 성향 매체 1곳만 보도했으며, 진보 성향 매체의 보도 비중이 높습니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LxmnS",
+          "name": "mmore",
+          "width": "fill_container",
+          "padding": 16,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "iWb7W",
+              "name": "mmoreText",
+              "fill": "$accent-primary",
+              "content": "나머지 2개 매체 보기",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CjFb5",
+          "name": "mpad",
+          "width": "fill_container",
+          "height": 24
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sAMCj",
+      "x": 0,
+      "y": 3900,
+      "name": "Screen 4 · Email Newsletter Template 600px",
+      "width": 600,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "6WNY7",
+          "name": "EmailHeader",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            40
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "9Kl2p",
+              "name": "emailLogo",
+              "fill": "$foreground-primary",
+              "content": "GlobeView",
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "500",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "Uwv1C",
+              "name": "emailDate",
+              "fill": "$foreground-muted",
+              "content": "2026년 4월 6일 월요일",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "0GFR0",
+          "name": "divider1",
+          "fill": "$accent-primary",
+          "width": "fill_container",
+          "height": 2
+        },
+        {
+          "type": "frame",
+          "id": "tEjyk",
+          "name": "EmailTitle",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            24,
+            40
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "SS1zB",
+              "name": "emailTitle",
+              "fill": "$foreground-primary",
+              "content": "오늘의 글로벌 브리핑",
+              "fontFamily": "Newsreader",
+              "fontSize": 26,
+              "fontWeight": "500",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "XISJY",
+              "name": "emailSubtitle",
+              "fill": "$foreground-muted",
+              "content": "글로벌 뉴스 3건 + 한국 뉴스 2건 · 예상 읽기 시간 5분",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PnkmU",
+          "name": "EmailNewsItem1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            0,
+            40
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "mr7VV",
+              "name": "emailTag1",
+              "fill": "$foreground-muted",
+              "content": "테크/스타트업 · Reuters · 중도",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            },
+            {
+              "type": "frame",
+              "id": "NVrze",
+              "name": "factLabel1",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R1RVw",
+                  "fill": "$accent-primary",
+                  "content": "THE FACT",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "n5WCq",
+                  "fill": "$foreground-muted",
+                  "content": "확인된 사실",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "R4WtB",
+              "name": "emailHL1",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "EU, AI 규제법 최종안 승인 — 범용 AI 모델에 투명성 의무 부과",
+              "lineHeight": 1.4,
+              "fontFamily": "Newsreader",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "FKxhP",
+              "name": "emailSummary1",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "유럽의회가 세계 최초의 포괄적 AI 규제법인 EU AI Act 최종안을 통과시켰다. 범용 AI 모델에 대해 학습 데이터 공개, 저작권 준수, 에너지 소비 보고 의무를 부과한다.",
+              "lineHeight": 1.65,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Mn2WB",
+              "name": "whyLabel1",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8Tfa7",
+                  "fill": "$accent-primary",
+                  "content": "WHY IT MATTERS",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "h84kA",
+                  "fill": "$foreground-muted",
+                  "content": "왜 지금 이 뉴스인가",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "WSIE6",
+              "name": "whyBody1",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "유럽에 AI 서비스를 수출하거나 유럽 파트너사와 일하는 한국 기업이라면, 이 법은 내년부터 계약 조건을 바꿉니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "JS2ee",
+              "name": "emailKoreaCtx1",
+              "width": "fill_container",
+              "fill": "$accent-primary-soft",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                10,
+                14
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IxNBR",
+                  "name": "forKoreaLabel1",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SpWNX",
+                      "fill": "$accent-primary",
+                      "content": "FOR KOREA",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "MYdsN",
+                      "fill": "$foreground-muted",
+                      "content": "한국에는 어떤 의미인가",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "6IHbg",
+                  "name": "emailKText1",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "한국 시사점: 한국 AI 기본법과 EU AI Act의 규제 범위 차이로 유럽 시장 진출 기업의 이중 컴플라이언스 부담 가능성.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8S7IW",
+              "name": "contextLabel1",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ujdMC",
+                  "fill": "$accent-primary",
+                  "content": "CONTEXT",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "BMjr6",
+                  "fill": "$foreground-muted",
+                  "content": "배경 & 맥락",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "328KE",
+              "name": "contextBody1",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "2019년 백서 초안부터 시작된 EU AI Act는 세계 최초로 AI를 법적 규제 범위에 편입시켰다. 웹에서 더 보기 →",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "QW8Ao",
+              "name": "emailLink1",
+              "fill": "$accent-primary",
+              "content": "→ 원문 보기",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "1UJ9F",
+              "name": "emailAI1",
+              "fill": "$foreground-muted",
+              "content": "AI 요약 · 에디터 검수",
+              "fontFamily": "Geist",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "n3MCo",
+          "name": "emailItemDiv",
+          "fill": "$border-subtle",
+          "width": 520,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "lxjXC",
+          "name": "EmailNewsItem2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            0,
+            40
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "2Mzqp",
+              "name": "emailTag2",
+              "fill": "$foreground-muted",
+              "content": "금융/투자 · Bloomberg · 중도~진보",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            },
+            {
+              "type": "frame",
+              "id": "3jmGy",
+              "name": "factLabel2",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Vh6NA",
+                  "fill": "$accent-primary",
+                  "content": "THE FACT",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "PXXS2",
+                  "fill": "$foreground-muted",
+                  "content": "확인된 사실",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "NbELm",
+              "name": "emailHL2",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "연준, 기준금리 동결 — 인플레이션 우려 속 시장 관망세 지속",
+              "lineHeight": 1.4,
+              "fontFamily": "Newsreader",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ohiKU",
+              "name": "emailSum2",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "미 연준이 기준금리를 5.25~5.50%로 동결했다. 파월 의장은 인플레이션이 2% 목표에 근접하나 확신이 부족하다고 밝혔다.",
+              "lineHeight": 1.65,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "fBbR3",
+              "name": "whyLabel2",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZlOsU",
+                  "fill": "$accent-primary",
+                  "content": "WHY IT MATTERS",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "MQvBf",
+                  "fill": "$foreground-muted",
+                  "content": "왜 지금 이 뉴스인가",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "8tBFZ",
+              "name": "whyBody2",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "금리 동결이 장기화되면 원/달러 환율 변동성 확대와 한은의 금리 인하 여력 제한이 예상됩니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "oZSHC",
+              "name": "emailKoreaCtx2",
+              "width": "fill_container",
+              "fill": "$accent-primary-soft",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                10,
+                14
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Q8mpP",
+                  "name": "forKoreaLabel2",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AWYzm",
+                      "fill": "$accent-primary",
+                      "content": "FOR KOREA",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "rBc7O",
+                      "fill": "$foreground-muted",
+                      "content": "한국에는 어떤 의미인가",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "hfYq0",
+                  "name": "emailKT2",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "한국 시사점: 금리 동결 장기화 시 원/달러 환율 변동성 확대. 부동산·가계대출 시장에 직접 영향.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4yEcq",
+              "name": "otherViewsLabel2",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gx5gS",
+                  "fill": "$accent-primary",
+                  "content": "OTHER VIEWS",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "YLMTu",
+                  "fill": "$foreground-muted",
+                  "content": "다른 시각들",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "wnfF5",
+              "name": "otherViewsList2",
+              "fill": "$foreground-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "FT — 파월의 신중론, 시장 기대와 엇갈림\nWSJ — 물가 재반등 우려로 인하 지연 가능성",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "claiw",
+              "name": "emailLink2",
+              "fill": "$accent-primary",
+              "content": "→ 원문 보기",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "BcRmv",
+              "name": "emailAI2",
+              "fill": "$foreground-muted",
+              "content": "AI 요약 · 에디터 검수",
+              "fontFamily": "Geist",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "6trWx",
+          "name": "emailDiv2",
+          "fill": "$border-subtle",
+          "width": 520,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "52Fnp",
+          "name": "EmailMoreLink",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            16,
+            40
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "yysEj",
+              "name": "emailMoreText",
+              "fill": "$accent-primary",
+              "content": "나머지 3건은 웹에서 보기 →",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "ETmBj",
+          "name": "emailDiv3",
+          "fill": "$border-subtle",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "yiEzn",
+          "name": "EmailShareCTA",
+          "width": "fill_container",
+          "fill": "$accent-primary-soft",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            20,
+            40
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "83ivl",
+              "fill": "$foreground-primary",
+              "content": "이 브리핑, 친구와 함께 읽기",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "5DTT4",
+              "fill": "$foreground-secondary",
+              "content": "오늘의 브리핑 링크를 복사해 공유하세요",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "EOeKD",
+              "name": "referralBtn",
+              "fill": "$accent-primary",
+              "cornerRadius": 6,
+              "padding": [
+                10,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VF2JE",
+                  "fill": "$surface-primary",
+                  "content": "브리핑 링크 열기",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SRB2t",
+          "name": "EmailFooter",
+          "width": "fill_container",
+          "fill": "$surface-tertiary",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            20,
+            40
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XiQG7",
+              "name": "TrackingArea",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4qR7Z",
+                  "name": "emailTrackLabel",
+                  "fill": "$foreground-muted",
+                  "content": "[완독 프록시 트래킹 영역]",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                },
+                {
+                  "type": "text",
+                  "id": "RVNrX",
+                  "name": "emailTrackDesc",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "하단 트래킹 픽셀 + 아래 3개 링크 중 1개 이상 클릭 = 완독 프록시",
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hNFPY",
+              "name": "TrackingLinks",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DDwma",
+                  "name": "emailTL1",
+                  "fill": "$accent-primary",
+                  "content": "오늘의 다관점 이슈",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "52GHw",
+                  "name": "emailTL2",
+                  "fill": "$accent-primary",
+                  "content": "관심사 변경",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "8kQdf",
+                  "name": "emailTL3",
+                  "fill": "$accent-primary",
+                  "content": "웹에서 보기",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "7e3Cp",
+              "name": "emailUnsub",
+              "fill": "$foreground-muted",
+              "content": "구독 해지  ·  GlobeView ©2026",
+              "fontFamily": "Geist",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 0.2
+            },
+            {
+              "type": "text",
+              "id": "mtprT",
+              "name": "emailPixelNote",
+              "fill": "$border-default",
+              "content": "[1×1 트래킹 픽셀 — 이메일 하단 로드 시 완독 프록시 카운트]",
+              "fontFamily": "Geist",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jSAfI",
+      "x": 1540,
+      "y": 1000,
+      "name": "Screen 5 · Share Bottom Sheet",
+      "width": 390,
+      "fill": "$surface-primary",
+      "cornerRadius": [
+        16,
+        16,
+        0,
+        0
+      ],
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "$border-subtle"
+      },
+      "layout": "vertical",
+      "padding": [
+        0,
+        0,
+        16,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "nqYFT",
+          "name": "ShareSheetHeader",
+          "width": "fill_container",
+          "padding": [
+            16,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xs5OX",
+              "name": "shareTitle",
+              "fill": "$foreground-primary",
+              "content": "공유하기",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "MTzK9",
+              "name": "shareClose",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "x",
+              "iconFontFamily": "lucide",
+              "fill": "$foreground-muted"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "wvyQF",
+          "name": "shareDiv",
+          "fill": "$border-subtle",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "p1i4A",
+          "name": "ShareBody",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "oJgmo",
+              "name": "shareHeadline",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "EU, AI 규제법 최종안 승인 — 범용 AI 모델에 투명성 의무 부과",
+              "lineHeight": 1.35,
+              "fontFamily": "Newsreader",
+              "fontSize": 15,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "utJPt",
+              "name": "shareUrlBox",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "padding": [
+                10,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tppXb",
+                  "name": "shareUrl",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "https://globeview-ten.vercel.app/archive/2026-04-11",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K5qtw",
+              "name": "shareCopyBtn",
+              "width": "fill_container",
+              "fill": "$accent-primary",
+              "cornerRadius": 8,
+              "padding": [
+                12,
+                16
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XZKgr",
+                  "name": "shareCopyBtnText",
+                  "fill": "$surface-primary",
+                  "content": "링크 복사",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wiljK",
+      "x": 2050,
+      "y": 1000,
+      "name": "Screen 6 · OG Card Preview",
+      "width": 480,
+      "fill": "$surface-secondary",
+      "cornerRadius": 12,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "$border-default"
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "OthnQ",
+          "name": "OGImageArea",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "NZfZk",
+              "name": "ogLogo",
+              "fill": "$accent-primary",
+              "content": "GlobeView",
+              "fontFamily": "Newsreader",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "EARJv",
+              "name": "ogHL",
+              "fill": "$foreground-inverse",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "EU, AI 규제법 최종안 승인 — 범용 AI 모델에 투명성 의무 부과",
+              "lineHeight": 1.4,
+              "fontFamily": "Newsreader",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "C7t8C",
+              "name": "OGBiasRow",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Eq8UO",
+                  "name": "ogBiasLabel",
+                  "fill": "$accent-primary",
+                  "content": "다관점 비교",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                },
+                {
+                  "type": "ellipse",
+                  "id": "Vp1KD",
+                  "name": "ogBiasDot1",
+                  "fill": "$bias-progressive",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "ellipse",
+                  "id": "pjYvY",
+                  "name": "ogBiasDot2",
+                  "fill": "$bias-center",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "ellipse",
+                  "id": "LCw5v",
+                  "name": "ogBiasDot3",
+                  "fill": "$bias-conservative",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "XZN0E",
+                  "name": "ogBiasCount",
+                  "fill": "#ABABAB",
+                  "content": "3개 매체",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nRJJK",
+          "name": "OGMeta",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "layout": "vertical",
+          "gap": 4,
+          "padding": [
+            12,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "9t1NN",
+              "name": "ogSummary",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "유럽의회가 세계 최초 포괄적 AI 규제법 최종안을 통과시켜, 범용 AI 모델에 투명성 의무를 부과한다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "JtWXS",
+              "name": "ogDomain",
+              "fill": "$foreground-muted",
+              "content": "globeview.kr",
+              "fontFamily": "Geist",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "3Hs0I",
+      "x": 3580,
+      "y": 200,
+      "name": "Screen 1 · Mobile 390 — Daily Briefing",
+      "width": 390,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "sXFtp",
+          "name": "MobileNav",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "$surface-secondary",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border-subtle"
+          },
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "lDuNu",
+              "name": "mLogo",
+              "fill": "$foreground-primary",
+              "content": "GlobeView",
+              "fontFamily": "Newsreader",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "icon_font",
+              "id": "ZBHd7",
+              "name": "mMenu",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "$foreground-secondary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GOQ3c",
+          "name": "MobileHeader",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            20,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "u8lC9",
+              "name": "mDate",
+              "fill": "$foreground-muted",
+              "content": "2026년 4월 6일 월요일",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "Cs4ke",
+              "name": "mTitle",
+              "fill": "$foreground-primary",
+              "content": "오늘의 글로벌 브리핑",
+              "fontFamily": "Newsreader",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "fPiTB",
+              "name": "mSub",
+              "fill": "$foreground-muted",
+              "content": "글로벌 3건 + 한국 2건 · 5분",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lCLRo",
+          "name": "MobileCards",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "cJ5Ab",
+              "name": "mc1",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "h2dsU",
+                  "name": "mc1Tag",
+                  "fill": "$foreground-muted",
+                  "content": "테크/스타트업 · Reuters 중도",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                },
+                {
+                  "type": "text",
+                  "id": "2Nbuf",
+                  "name": "mc1HL",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EU, AI 규제법 최종안 승인 — 범용 AI 모델에 투명성 의무 부과",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Newsreader",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "GUiWS",
+                  "name": "mc1Sum",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "유럽의회가 세계 최초의 포괄적 AI 규제법 최종안을 통과시켰다.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "MH8Tl",
+                  "name": "mc1K",
+                  "width": "fill_container",
+                  "fill": "$accent-primary-soft",
+                  "cornerRadius": 4,
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "QFULf",
+                      "name": "mc1KFlag",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "flag",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MSeMr",
+                      "name": "mc1KText",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "한국 시사점: 유럽 진출 기업의 이중 컴플라이언스 부담 가능성.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NKdNx",
+                  "name": "mc1Actions",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cQAaw",
+                      "name": "mc1Link",
+                      "fill": "$accent-primary",
+                      "content": "원문 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bs2pl",
+                      "name": "mc1Share",
+                      "fill": "$accent-primary-soft",
+                      "cornerRadius": 4,
+                      "gap": 4,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "vCqa5",
+                          "name": "mc1ShareIcon",
+                          "width": 11,
+                          "height": 11,
+                          "iconFontName": "share-2",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MbgVi",
+                          "name": "mc1ShareText",
+                          "fill": "$accent-primary",
+                          "content": "공유",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "svbVt",
+                  "name": "mc1AI",
+                  "fill": "$foreground-muted",
+                  "content": "AI 요약 · 에디터 검수",
+                  "fontFamily": "Geist",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CshFC",
+              "name": "mc2",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$radius-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hgI6u",
+                  "name": "mc2Tag",
+                  "fill": "$foreground-muted",
+                  "content": "금융/투자 · Bloomberg 중도~진보",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                },
+                {
+                  "type": "text",
+                  "id": "d5kYT",
+                  "name": "mc2HL",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "연준, 기준금리 동결 — 인플레이션 우려 속 관망세",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Newsreader",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "iMlUu",
+                  "name": "mc2Sum",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "미 연준이 기준금리를 동결. 파월 의장은 인플레이션 목표 근접 시사.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "v7COm",
+                  "name": "mc2K",
+                  "width": "fill_container",
+                  "fill": "$accent-primary-soft",
+                  "cornerRadius": 4,
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "fJstw",
+                      "name": "mc2KFlag",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "flag",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j3xVN",
+                      "name": "mc2KText",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "한국 시사점: 원/달러 환율 변동성 확대, 부동산·가계대출 시장 직접 영향.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yfqe5",
+                  "name": "mc2Act",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m3S8g",
+                      "name": "mc2Link",
+                      "fill": "$accent-primary",
+                      "content": "원문 보기",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uPKcF",
+                      "name": "mc2Share",
+                      "fill": "$accent-primary-soft",
+                      "cornerRadius": 4,
+                      "gap": 4,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "IhoHe",
+                          "name": "mc2SI",
+                          "width": 11,
+                          "height": 11,
+                          "iconFontName": "share-2",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c5aSA",
+                          "name": "mc2ST",
+                          "fill": "$accent-primary",
+                          "content": "공유",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "4F9tH",
+                  "name": "mc2AI",
+                  "fill": "$foreground-muted",
+                  "content": "AI 요약 · 에디터 검수",
+                  "fontFamily": "Geist",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5Tu2U",
+              "name": "mMore",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zLSYn",
+                  "name": "mMoreText",
+                  "fill": "$accent-primary",
+                  "content": "나머지 3건 더 보기 ↓",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MDFGs",
+          "name": "MobileBottomNav",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border-subtle"
+          },
+          "padding": [
+            12,
+            0
+          ],
+          "justifyContent": "space_around",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "6B71s",
+              "name": "mBN1",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "NYwy6",
+                  "name": "mBN1I",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "newspaper",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "yjfDL",
+                  "name": "mBN1T",
+                  "fill": "$accent-primary",
+                  "content": "브리핑",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qkXHV",
+              "name": "mBN2",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "lBtmQ",
+                  "name": "mBN2I",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "columns-3",
+                  "iconFontFamily": "lucide",
+                  "fill": "$foreground-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "4iL42",
+                  "name": "mBN2T",
+                  "fill": "$foreground-muted",
+                  "content": "다관점",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AwgcB",
+              "name": "mBN3",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "p8cEX",
+                  "name": "mBN3I",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "archive",
+                  "iconFontFamily": "lucide",
+                  "fill": "$foreground-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "DIpnd",
+                  "name": "mBN3T",
+                  "fill": "$foreground-muted",
+                  "content": "아카이브",
+                  "fontFamily": "Geist",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-primary": {
+      "type": "color",
+      "value": "#C8B496"
+    },
+    "accent-primary-soft": {
+      "type": "color",
+      "value": "#F0EAE0"
+    },
+    "bias-center": {
+      "type": "color",
+      "value": "#6B7280"
+    },
+    "bias-conservative": {
+      "type": "color",
+      "value": "#F97316"
+    },
+    "bias-progressive": {
+      "type": "color",
+      "value": "#60A5FA"
+    },
+    "bias-strong-conservative": {
+      "type": "color",
+      "value": "#DC2626"
+    },
+    "bias-strong-progressive": {
+      "type": "color",
+      "value": "#2563EB"
+    },
+    "border-default": {
+      "type": "color",
+      "value": "#D9D4CC"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#EEECE8"
+    },
+    "foreground-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "foreground-muted": {
+      "type": "color",
+      "value": "#8A8578"
+    },
+    "foreground-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "foreground-secondary": {
+      "type": "color",
+      "value": "#4A4A4A"
+    },
+    "radius-md": {
+      "type": "number",
+      "value": 8
+    },
+    "radius-sm": {
+      "type": "number",
+      "value": 4
+    },
+    "spacing-2xl": {
+      "type": "number",
+      "value": 48
+    },
+    "spacing-lg": {
+      "type": "number",
+      "value": 24
+    },
+    "spacing-md": {
+      "type": "number",
+      "value": 16
+    },
+    "spacing-sm": {
+      "type": "number",
+      "value": 8
+    },
+    "spacing-xl": {
+      "type": "number",
+      "value": 32
+    },
+    "spacing-xs": {
+      "type": "number",
+      "value": 4
+    },
+    "surface-inverse": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#F4F2EF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "surface-tertiary": {
+      "type": "color",
+      "value": "#EDEAE5"
+    },
+    "warning-bg": {
+      "type": "color",
+      "value": "#FEF3E6"
+    },
+    "warning-icon": {
+      "type": "color",
+      "value": "#D97706"
+    },
+    "warning-text": {
+      "type": "color",
+      "value": "#92400E"
+    }
+  }
+}
